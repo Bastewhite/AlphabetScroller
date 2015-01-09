@@ -1,5 +1,16 @@
 package uk.co.brightec.alphabetscroller;
 
+import android.app.ListActivity;
+import android.os.Bundle;
+import android.view.GestureDetector;
+import android.view.Gravity;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnTouchListener;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -10,17 +21,6 @@ import java.util.regex.Pattern;
 import uk.co.brightec.alphabetscroller.AlphabetListAdapter.Item;
 import uk.co.brightec.alphabetscroller.AlphabetListAdapter.Row;
 import uk.co.brightec.alphabetscroller.AlphabetListAdapter.Section;
-import android.app.ListActivity;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.GestureDetector;
-import android.view.Gravity;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.View.OnTouchListener;
-import android.view.ViewGroup;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 public class MainActivity extends ListActivity {
 
